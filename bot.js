@@ -15,7 +15,8 @@
   jenkins.use(rdio({
     key: process.env.RDIO_KEY,
     secret: process.env.RDIO_SECRET,
-    defaultUser: 'ovenbits'
+    defaultUser: 'ovenbits',
+    defaultMessagePrefix: 'We are jamming to'
   }));
 
 
