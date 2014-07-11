@@ -1,0 +1,28 @@
+{
+  "name": "rdio",
+  "version": "0.0.0",
+  "description": "Hermes integration to retrieve last song played on Rdio",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "mocha --reporter spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/stevehanson/rdio-hermes.git"
+  },
+  "author": "Steve Hanson",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/stevehanson/rdio-hermes/issues"
+  },
+  "homepage": "https://github.com/stevehanson/rdio-hermes",
+  "dependencies": {
+    "chai": "^1.9.1",
+    "dotenv": "^0.2.8",
+    "express": "^4.4.3",
+    "hermes": "^0.4.3",
+    "mocha": "^1.20.1",
+    "node-rdio": "^0.1.1",
+    "oauth": "^0.9.12"
+  }
+}
