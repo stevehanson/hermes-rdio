@@ -2,6 +2,8 @@
 
 Hermes integration to display the latest song played on Rdio account.
 
+[![NPM version](https://badge.fury.io/js/hermes-rdio.svg)](http://badge.fury.io/js/hermes-rdio)
+
 ## Installation
 
 `npm install --save hermes-rdio`
